@@ -1,6 +1,8 @@
 explore: orders {
-join: products
+join: products {
 sql_on: products.id = orders.product_id
+
+}
 
 }
 
