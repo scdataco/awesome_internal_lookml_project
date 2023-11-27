@@ -1,5 +1,5 @@
 view: orders {
-derived_table {
+derived_table: {
   sql: select * from orders ;;
   persist_for: 1 hour
 }
