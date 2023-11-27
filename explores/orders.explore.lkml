@@ -1,6 +1,7 @@
+include: "/views/orders.view"
 explore: orders {
 join: products {
-sql_on: products.id = orders.product_id
+sql_on: products.id = orders.product_id ;;
 
 }
 
