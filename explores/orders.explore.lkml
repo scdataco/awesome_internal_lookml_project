@@ -1,14 +1,14 @@
 include: "/views/orders.view"
 explore: orders {
-join: products {
-sql_on: products.id = orders.product_id ;;
+join: product {
+sql_on: product.id = orders.product_id ;;
 
 }
 
 }
 
 
-view: products {
+view: product {
 sql_table_name: products
 
 dimension: product_id {}
